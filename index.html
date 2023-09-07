@@ -32,7 +32,7 @@
 								</div>
 
 								<div class="col mb-3">
-									<img src="captcha/image.php?" alt="CAPTCHA" id="image-captcha">
+									<img src="captcha/image.php" alt="CAPTCHA" id="image-captcha">
 									<a href="#" id="refresh-captcha" class="align-middle" title="refresh"><i class="material-icons align-middle">refresh</i></a>
 								</div>
 
@@ -55,7 +55,7 @@
 
 		refreshButton.onclick = function(event) {
 			event.preventDefault();
-			captchaImage.src = 'captcha/image.php?' + Date.now();
+			captchaImage.src = 'captcha/image.php' + Date.now();
 		}
 	</script>
 
